@@ -1,0 +1,52 @@
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin flex-column-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flex-bettween-c{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flex-bettween{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@mixin bg-setting{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@mixin mobile{
+    @media (max-width:576px){
+        @content;
+    }
+}
+
+
+
+

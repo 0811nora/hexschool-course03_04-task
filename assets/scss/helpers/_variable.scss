@@ -1,0 +1,94 @@
+
+// 字體設定
+$font-family-notoTC: "Noto Sans TC", sans-serif;
+$font-size-base: 16px;
+$line-height-s: 1.2;
+$line-height-base: 1.5;
+$letter-spacing-base: 0.5px;
+
+// 文字方向
+$text-center: center;
+$text-right: center;
+
+// 色彩
+$primary-100: #f5fee7;
+$primary-200: #e8fec5;
+$primary-300: #c0fa73;
+$primary-400: #57a203;
+$primary-500: #477a11;
+$neutral-0: #ffffff;
+$neutral-100: #f8f9fa;
+$neutral-200: #e9ecef;
+$neutral-300: #dee2e6;
+$neutral-400: #ced4da;
+$neutral-500: #adb5bd;
+$neutral-600: #6c757d;
+$neutral-700: #495057;
+$neutral-800: #343a40;
+$neutral-900: #212529;
+
+
+
+
+// 區塊
+$d-block: block;
+$d-inline-block: inline-block;
+$d-none: none;
+$d-flex: flex;
+
+// 文字粗細
+$fw-s: 500;
+$fw-m: 700;
+$fw-l: 900;
+
+// 邊匡
+$border-base: 1px solid $neutral-300;
+
+
+// 圓角設定
+$b-radius-xs: 4px;
+$b-radius-sm: 8px;
+
+//// 文字大小
+$fz: (
+    1: 12px,
+    2: 14px,
+    base: 16px,
+    3: 20px,
+    4: 24px,
+    5: 28px,
+    6: 32px,
+    7: 40px,
+    8: 48px,
+    9: 64px
+);
+
+
+
+// 間距
+$spacer: 1rem;
+$spacers: (
+    auto: auto,
+    0: 0,
+    1: calc($spacer / 4),   // 4
+    2: calc($spacer / 2),   // 8
+    3: 12px,  
+    4: $spacer,       // 16
+    5: calc($spacer * 1.5), // 24
+    6: calc($spacer * 2),   // 32
+    7: calc($spacer * 2.5), // 40
+    8: calc($spacer * 3),   // 48
+    9: calc($spacer * 3.5), // 56
+    10: calc( $spacer * 4),  // 64
+    11: calc( $spacer * 5),  // 80 
+    12: 120px,
+    200: 200px,
+);
+
+
+
+
+
+
+
+

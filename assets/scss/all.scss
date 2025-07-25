@@ -1,0 +1,29 @@
+
+@import './base/reset';
+@import './helpers/variable';
+@import './helpers/mixin';
+@import './helpers/utilities';
+@import './base/base';
+@import './helpers/button';
+@import './helpers/_layout.scss';
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Dancing+Script:wght@400..700&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+TC:wght@200..900&family=WDXL+Lubrifont+TC&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+
+
+
+
+@import './layout/footer';
+
+
+@import './pages/index';
+@import './pages/about';
+@import './pages/product-detail';
+@import './pages/login';
+
+@import './components/hot-badge';
+@import './components/grid-image';
+

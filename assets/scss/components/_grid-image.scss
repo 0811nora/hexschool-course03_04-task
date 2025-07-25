@@ -1,0 +1,17 @@
+.grid-image img{
+    min-width: 0;
+}
+
+
+@include mobile{
+    .grid-image img{
+        min-width: auto;
+        max-width: 312px;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URBNSTEP</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <%- include('./layout/list-mobile'); -%>
+
+
+    <div class="hero">
+      <div class="hero-content ml-200 ml-sm-5">
+        <h1 class="fz-9 fz-sm-8 fw-m text-color-n-0 mb-4">URBNSTEP</h1>
+        <h5 class="text-color-n-0 fz-5 fz-sm-3 fw-m mb-8">Your Step, Your Statement</h5>
+        <a href="./product-list.html" class="btn btn-primary-300 fw-s">立即選購</a>
+      </div>
+    </div>
+
+    <!-- new -->
+    <section class="new-section container py-10 py-sm-7">
+      <h2 class="fz-7 fz-sm-6 fw-m text-center mb-3 mb-sm-2">New Arrival</h2>
+      <h4 class="fz-6  fz-sm-4 fw-m text-center mb-6 mb-sm-5">新品上市</h4>
+      <div class="new-content">
+        <ul class="row">
+          <li class="col-6 col-sm-6 mb-7">
+            <a class="hover-card" href="./product-detail.html">
+              <img src="../assets/images/new-1.png" class="mb-3" alt="鞋子新品">
+              <h6 class="fw-m fz-3">Monoverse</h6>
+              <p class="fw-s">NT$3,600</p>
+            </a>
+          </li>
+          <li class="col-6 col-sm-6 mb-7">
+            <a class="hover-card" href="./product-detail.html">
+              <img src="../assets/images/new-2.png" class="mb-3" alt="鞋子新品">
+              <h6 class="fw-m fz-3 ">PLATFORM 404</h6>
+              <p class="fw-s">NT$2,600</p>
+            </a>
+          </li>
+          <li class="col-6 col-sm-6 ">
+            <a class="hover-card" href="./product-detail.html">
+              <img src="../assets/images/new-3.png" class="mb-3" alt="鞋子新品">
+              <h6 class="fw-m fz-3 ">URBN Force</h6>
+              <p class="fw-s">NT$3,200</p>
+            </a>
+          </li>
+          <li class="col-6  col-sm-6 ">
+            <a class="hover-card" href="./product-detail.html">
+              <img src="../assets/images/new-4.png" class="mb-3" alt="鞋子新品">
+              <h6 class="fw-m fz-3 ">Mode90</h6>
+              <p class="fw-s">NT$4,000</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+      <!-- hot -->
+    <section class="hot-section py-10 fw-s">
+      <div class="hot-content container ">
+        <h4 class="fz-6 mb-4">熱銷補貨</h4>
+        <ul class="row hot-list-container">
+          <li class="col-3  hot-list">
+            <a href="./product-detail.html"><img class="hover-card" src="../assets/images/product-3.png" alt="鞋子"></a>
+            <div class="hot-tag">
+              <%- include('./components/hot-badge'); -%>
+            </div>
+          </li>
+          <li class="col-3 hot-list  ">
+            <a href="./product-detail.html"><img class="hover-card" src="../assets/images/image.png" alt="鞋子"></a>
+            <div class="hot-tag">
+              <%- include('./components/hot-badge'); -%>
+            </div>
+          </li>
+          <li class="col-3 hot-list  ">
+            <a href="./product-detail.html"><img class="hover-card" src="../assets/images/product-6.png" alt="鞋子"></a>
+            <div class="hot-tag">
+              <%- include('./components/hot-badge'); -%>
+            </div>
+          </li>
+          <li class="col-3 hot-list  ">
+            <a href="./product-detail.html"><img class="hover-card" src="../assets/images/product-4.png" alt="鞋子"></a>
+            <div class="hot-tag">
+              <%- include('./components/hot-badge'); -%>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+      <!-- banner -->
+    <section class="banner flex-center position-r overflow-hidden">
+      <img class="banner-icon-1 position-a pc" src="../assets/images/thunder.svg" alt="">
+      <img class="banner-icon-2 position-a pc" src="../assets/images/rain.svg" alt="">
+      <div class="banner-content text-center position-r ">
+        <h2 class="fz-8 fz-sm-6 fw-s text-color-n-0 align-center mb-4 mb-sm-2 d-inline-block d-sm-block  ">URBNSTEP</h2>
+        <span class="fz-7 fz-sm-5 px-5 mb-sm-2 text-color-p-300 vertical-top d-inline-block d-sm-block ">x</span>
+        <h2 class="fz-8 fz-sm-6 fw-s text-color-n-0 align-center mb-4 d-inline-block d-sm-block ">Kevin Chen</h2>
+        <h4 class="fz-6 fz-sm-3 text-color-n-0 mb-6">跨界聯名，限量發售</h4>
+        <p class=" text-color-n-500 mb-8 d-sm-none">新銳漫畫家 Kevin Chen 親自操刀設計，街頭能量全面引爆！</p>
+        <p class=" d-none fz-3 fz-sm-base text-color-n-500 mb-8 mb-sm-1 d-sm-block ">新銳漫畫家 Kevin Chen 親自操刀設計</p>
+        <p class="fz-3 fz-sm-base text-color-n-500 mb-8  d-sm-block d-none">街頭能量全面引爆！</p>
+        <a href="./product-list.html" class=" btn btn-primary-300">立即搶購</a>
+        <img class="banner-icon-3 position-a" src="../assets/images/sparkle.svg" alt="">
+        <img class="banner-icon-4 position-a" src="../assets/images/star.svg" alt="">
+      </div>
+    </section>
+
+      <!-- type -->
+    <section class="type-section py-10 py-sm-7 fw-s">
+      <div class="type-content container ">
+        <h4 class="fz-6 fz-sm-4 mb-4">依系列選購</h4>
+        <ul class="row type-list-container">
+          <li class="col-3 col-sm-3 type-list mb-sm-3 ">
+            <a href="./product-list.html" class="position-r ">
+              <img class="img-dark" src="../assets/images/product-6.png" alt="鞋子">
+              <div class="position-center text-center w-100  ">
+                <h5 class="fz-5 fz-sm-base fw-s text-color-n-0 mb-2 link-hover-300">URBN RUNNER</h5>
+                <h6 class="fz-4 fz-sm-base fw-s text-color-n-0">慢跑系列</h6>
+              </div>
+            </a>
+          </li>
+
+          <li class="col-3 col-sm-3 type-list ">
+            <a href="./product-list.html" class="position-r">
+              <img class="img-dark" src="../assets/images/image 20.png" alt="鞋子">
+              <div class="position-center text-center w-100">
+                <h5 class="fz-5 fz-sm-base fw-s text-color-n-0 mb-2">STREETMODE</h5>
+                <h6 class="fz-4 fz-sm-base fw-s text-color-n-0">滑板系列</h6>
+              </div>
+            </a>
+          </li>
+
+          <li class="col-3 col-sm-3 type-list  ">
+            <a href="./product-list.html" class="position-r">
+              <img class="img-dark" src="../assets/images/product-9.png" alt="鞋子">
+              <div class="position-center text-center w-100 ">
+                <h5 class="fz-5 fz-sm-base fw-s text-color-n-0 mb-2 ">CHUNK DISTRICT</h5>
+                <h6 class="fz-4 fz-sm-base fw-s text-color-n-0">厚底系列</h6>
+              </div>
+            </a>
+          </li>
+
+          <li class="col-3 col-sm-3 type-list  ">
+            <a href="./product-list.html" class="position-r">
+              <img class="img-dark" src="../assets/images/image 21.png" alt="鞋子">
+              <div class="position-center text-center w-100">
+                <h5 class="fz-5 fz-sm-base fw-s text-color-n-0 mb-2">COLLAB ZONE</h5>
+                <h6 class="fz-4 fz-sm-base fw-s text-color-n-0">聯名企劃</h6>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="py-10 fw-s ">
+      <div class="type-content container ">
+        <h4 class="fz-6 mb-4">穿搭靈感</h4>
+        <%- include('./components/grid-image'); -%>
+      </div>
+        
+    </section>
+
+
+    <%- include('./layout/cta-section'); -%>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

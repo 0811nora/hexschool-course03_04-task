@@ -1,0 +1,27 @@
+.about-header{
+    background-image: url(/assets/images/hero.png);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-right-line{
+    width: 50px;
+    display: inline-block;
+    border-right:1px solid $neutral-900;
+    margin-right: 10px;
+}
+
+.text-left-line{
+    border-left:5px solid $neutral-300;
+    
+}
+@include mobile{
+    .about-header{
+        height: 240px;
+        
+    }
+}
+
+

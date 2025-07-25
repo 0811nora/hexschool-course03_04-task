@@ -1,0 +1,183 @@
+
+.w-33{
+    width: 33%;
+}
+.w-49{
+    width: 49.45%;
+}
+.w-50{
+    width: 50%;
+}
+.w-66{
+    width: 66%;
+}
+.w-100{
+    width: 100%;
+}
+
+.w-259px{
+    width: 259px;
+}
+.w-160px{
+    width: 160px;
+}
+.w-120px{
+    width: 120px;
+}
+
+@include mobile{
+    .w-sm-100{
+        width: 100%;
+    }
+    .w-sm-295{
+        width: 295px;
+    }
+    .w-sm-32{
+        width: 32px;
+    }
+}
+
+
+
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+@include mobile{
+    .container-sm{
+        max-width: 100%;
+    }
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+@include mobile{
+    .row{
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+}
+
+
+.col-1{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc( 100% / 12);
+}
+
+.col-2{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc( 100% / 12 * 2);
+}
+
+.col-3{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc( 100% / 12 * 3);
+}
+@include mobile{
+    .col-3{
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .col-sm-3{
+        width: 50%;
+    }
+}
+
+.col-4{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc( 100% / 12 * 4);
+}
+
+
+.col-5{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc( 100% / 12 * 5);
+}
+
+.col-6{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc( 100% / 12 * 6);
+}
+
+@include mobile{
+    .col-sm-6{
+        padding-left: 6px;
+        padding-right: 6px;
+        width: calc( 100% / 12 * 6);
+
+    }
+}
+
+.col-7{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc( 100% / 12 * 7);
+}
+
+.col-8{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc( 100% / 12 * 8);
+}
+@include mobile{
+    .col-sm-8{
+        padding-left: 6px;
+        padding-right: 6px;
+        width: 100%;
+    }
+}
+
+.col-9{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc( 100% / 12 * 9);
+}
+
+.col-10{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc( 100% / 12 * 10);
+}
+@include mobile{
+    .col-sm-10{
+        padding-left: 0px;
+        padding-right: 0px;    
+        width: 100%;
+    }
+}
+
+.col-11{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc( 100% / 12 * 11);
+}
+
+.col-12{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc( 100%);
+}
+@include mobile{
+    .col-sm-12{
+        padding-left: 6px;
+        padding-right: 6px;
+        width: 100%;
+    }
+}
+
+
