@@ -204,6 +204,9 @@
 .bg-neutral-300{
     background: $neutral-300;
 }
+.bg-neutral-700{
+    background: $neutral-700;
+}
 
 .text-color-p-300{
     color: $primary-300;
@@ -230,12 +233,21 @@
 
 
 
-
-.link-hover:hover{
-    color: $primary-500;
-}
 .link-hover-300:hover{
     color: $primary-300;
+}
+
+.link-hover-500:hover{
+    color: $primary-500;
+}
+
+.link-hover-n600:hover{
+    color: $neutral-600;
+}
+
+.link-hover-bg-n100:hover{
+    background: $neutral-100;
+    transition: all 0.3s ease;
 }
 .link-hover-bg-300:hover{
     background: $primary-300;
@@ -245,6 +257,12 @@
     transition: all 0.3s ease;
     background: $neutral-300;
 }
+.link-hover-bg-n900:hover{
+    transition: all 0.3s ease;
+    background: $neutral-900;
+    color:#ffffff;
+}
+
 
 .hover-card:hover{
     opacity: 0.7;
